@@ -121,7 +121,6 @@ execute_on_irq_stack(int overflow, struct irq_desc *desc, int irq)
 /*
  * allocate per-cpu stacks for hardirq and for softirq processing
  * 中断栈
- *
  */
 void irq_ctx_init(int cpu)
 {
