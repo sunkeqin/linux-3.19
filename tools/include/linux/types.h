@@ -69,7 +69,7 @@ struct hlist_head {
 };
 
 struct hlist_node {
-	struct hlist_node *next, **pprev;
+	struct hlist_node *next, **pprev;//pprev指向前一个元素的next字段
 };
 
 #endif /* _TOOLS_LINUX_TYPES_H_ */
